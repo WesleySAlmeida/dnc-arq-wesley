@@ -46,3 +46,13 @@
     color: #666;
     pointer-events: none;
 }
+
+.button.unstyled {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+.button.unstyled:hover {
+  background: transparent;
+}
